@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  background-color: #000;
+  color: white;
+  font-weight: bold;
+  font-size: Ping Fang;
+  cursor: none;
+}
+.wp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.date {
+  position: absolute;
+  bottom: 2%;
+  left: 2%;
+  font-size: 30px;
+  text-shadow: 0 0 4px #eee;
+}
+.time-wp {
+  display: flex;
+  align-items: center;
+}
+.time-ma, .sec {
+  font-size: 50px;
+  margin: 0 20px;
+  text-shadow: 0 0 4px #eee;
+}
+.sec {
+  transition: opacity .3s, transform 0.3s, color 0.3s;
+  width: 50px;
+}
+.sec-trans {
+  transform-origin: 0 100%;
+  opacity: 0.2;
+  color: #eee;
+  transform: scale(0.4);
+}
+.time {
+  font-size: 220px;
+  text-shadow: 0 0 4px #eee;
+}
