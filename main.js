@@ -35,10 +35,10 @@ function getMyDate() {
     sec = sec < 10 ? `0${sec}` : sec;
     ma = tempHour < 12 ? "AM" : "PM";
 
-    secEle.classList.remove('sec-trans');
-    setTimeout(() => {
-      secEle.classList.add('sec-trans');      
-    }, 800);
+    // secEle.classList.remove('sec-trans');
+    // setTimeout(() => {
+    //   secEle.classList.add('sec-trans');      
+    // }, 800);
     timeMaEle.textContent = ma;
     timeEle.textContent = `${hour}:${min}`;
     secEle.textContent = sec;
