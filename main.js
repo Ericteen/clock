@@ -47,3 +47,9 @@ function getMyDate() {
 }
 
 getMyDate();
+
+// toggle theme
+const wpEle = document.querySelector('.wp')
+dateEle.addEventListener('click', function () {
+  wpEle.classList.toggle('theme-light')
+})

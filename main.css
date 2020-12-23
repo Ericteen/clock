@@ -42,3 +42,18 @@ body {
   font-size: 220px;
   text-shadow: 0 0 4px #eee;
 }
+.theme-light {
+  background-color: white;
+  color: #333;
+}
+@media screen and (max-width: 650px) {
+  .time {
+    font-size: 80px;
+  }
+  .time-ma, .sec {
+    font-size: 30px;
+  }
+  .date {
+    font-size: 20px;
+  }
+}
